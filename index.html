@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Brady scaggari - personal website</title>
+</head>
+
+
+
+<body>
+    <div class="navbar">
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a target="_blank" href="about.html">About</a></li>
+        <li><a target="_blank" href="projects.html">Projects</a></li>
+        <li><a target="_blank" href="resume.html">Resume</a></li>
+        <li><a target="_blank" href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    <header>
+        <h1 id="topheader">Brady Scaggari</h1>
+        </label>
+    </header>
+
+    <button id="switch">Dark-Mode</button>
+
+    <div class="me-content">
+        <div class="image-gallery">
+            <img src="photos/me.PNG" alt="me">
+        </div>
+        <p id="content">
+            Hello and welcome to my personal website. 
+            My name is Brady Scaggari, I was born in Gallup, New Mexico.
+             Some things I like doing in my free time is oil painting and reading. 
+             If youre reading this thanks for taking the time to get to know a little about me! 
+        </p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Brady Scaggari</p>
+    </div>
+</body>
+<script>
+    document.getElementById("switch").onclick = function(){
+     document.getElementsByTagName("body")[0].classList.toggle("dark");
+    };
+    </script>
+
+</html>

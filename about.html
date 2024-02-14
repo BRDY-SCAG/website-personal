@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About,Brady</title>
+    <link rel="stylesheet" href="contentpages.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a target="_blank" href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a target="_blank" href="projects.html">Projects</a></li>
+                <li><a target="_blank" href="resume.html">Resume</a></li>
+                <li><a target="_blank" href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        <h1>About, Brady</h1>
+    </header>
+
+    <button id="switch">Dark-Mode</button>
+
+    <div class="about-content">
+        <div class="image-gallery">
+            <img src="photos/dog.jpg" alt="Image 1">
+            <img src="photos/balloons.JPG" alt="Image 2">
+            <img src="photos/baby.jpg" alt="Image 3">
+            <img src="photos/forest.jpg" alt="Image 4">
+            <img src="photos/ocean.jpg" alt="Image 4">
+        </div>
+        <p>
+            This page is for getting to know my journey. I was born in Gallup, New Mexico to begin.
+            Gallup is a small town, I didn't stay there long because I moved to Albquerque, New Mexico when 
+            I was around 4 years old. My favorite color is green and I've always been intrigued by the arts and sciences in life. 
+            I love painting with oil paint even though i'm not particullarly good at any of it. I like taking pictures of places I've never been 
+            to capture the moment. I really enjoy numbers and sequences of numbers I remember being shown the fibonacci sequence in 3rd grade and 
+            that "spiraled" my interest in mathematics and eventaully computers. In highschool I played baseball for all 4 years which tought me alot about 
+            teamwork and the environments teams create. To save the best for last I am a dog lover and have two pretty pups (Creed and Frankie). Creeds a new addition 
+            and he loves his sister.
+        </p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Brady Scaggari</p>
+    </div>
+</body>
+<script>
+    document.getElementById("switch").onclick = function(){
+     document.getElementsByTagName("body")[0].classList.toggle("dark");
+    };
+    </script>
+</html>

@@ -1,0 +1,280 @@
+/*styling to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: white;
+    color: black;
+}
+
+/*styling to body for dark*/
+.dark{
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.5;
+        background-color: #022414;
+        color: #ffffff;
+}
+
+/*button styling for dark mode*/
+.dark #switch{
+    display: inline-block;
+    top: 59px;
+    left: 45%;
+    right: 0;
+    bottom: 0;
+    background-color: #022414;
+    border: 2px solid #333;
+    padding: 9px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dark #switch:hover{
+    background-color: #067843;
+}
+/*end of dark button styling*/
+
+
+/*styling for header*/
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #333;
+}
+
+
+
+/*positioning for the main contact div*/
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*positioning and styling for elements in main div block*/
+.contact-block {
+    text-align: center;
+    width: 45%;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*styling for images in the contact page phone,mail*/
+.contact-block img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; 
+    border: 0px solid #333;
+    border-radius: 26px;
+
+}
+
+/*end of contact page styling*/;
+
+
+/*styling button in light mode*/
+#switch{
+    display: inline-block;
+    top: 59px;
+    left: 45%;
+    right: 0;
+    bottom: 0;
+    background-color: #067843;
+    border: 2px solid #333;
+    padding: 9px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#switch:hover{
+    background-color: #022414;
+}
+
+/*end of stylign button*/
+
+
+/*same as mystyle.css*/
+.navbar ul{
+    position: absolute;
+    width: 97%;
+    margin: 0;
+    padding: 0;
+    top: -2px;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 1px solid #000000;
+}
+.navbar li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #022414;
+}
+
+.navbar ul li a.active {
+    background-color: #067843;
+}
+
+.navbar ul li a:hover.active {
+    text-decoration: underline;
+}
+
+/*end of nav bar*/
+
+
+/*styling and positioning for about page*/
+.about-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*positioning for the images*/
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #333;
+    
+}
+/*sizing and styling of the actual images*/
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 4px solid #333;
+    border-radius: 20px;
+}
+
+/*sizing and styling for the paragraph below image gallery*/
+.about-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+/*end of about styling*/
+
+
+/*styling and positioning for resume page*/
+.resume-content {
+    text-align: center;
+    margin-top: 50px;
+}
+/*styling for the embed pdf resume*/
+.resume-image {
+    display: block;
+    height: 469px;
+    width: 430px;
+    margin: 0 auto 30px;
+    border: 7px solid #333;
+    border-radius: 8px;
+
+}
+
+/*styling and positioning for links below resume*/
+.social-links {
+    text-align: center;
+    border-top: 2px solid #333;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 59px;
+    height: 59px;
+    margin-top: 2px;
+    border: 2px solid #333;
+    border-radius: 6px;
+}
+
+/*end of resume*/
+
+
+/*Styling and positioning for projects page content*/
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*styling for all projects*/
+.project {
+    text-align: center;
+    width: 45%;
+    margin-bottom: 30px;
+}
+/*styling for projects images*/
+.project img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #333;
+    border-radius:5px;
+}
+/*styling for projects description*/
+.project p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+/*paragraph styling for the text below the main project-content div*/
+#description{ 
+    border-top: 2px solid #333;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+/*end of styling for projects page*/
+
+
+/*positioning and styling the footer for all pages*/
+.footer {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    height: 39px;
+    background-color: #022414;
+    background-blend-mode: difference;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+
+/*end of footer*/

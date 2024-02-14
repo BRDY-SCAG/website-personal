@@ -1,0 +1,44 @@
+<!DOCTYPE html> //brady scaggari 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contentpages.css">
+</head>
+<body>
+    <header>
+            <div class="navbar"> 
+                <ul>
+                    <li><a target="_blank" href="index.html">Home</a></li>
+                    <li><a target="_blank" href="about.html">About</a></li>
+                    <li><a target="_blank" href="projects.html">Projects</a></li>
+                    <li><a target="_blank" href="resume.html">Resume</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                </div>
+        <h1>Contact Me</h1>
+    </header>
+    <button id="switch">Dark-Mode</button>
+    <div class="contact-content">
+        <div class="contact-block">
+            <img src="photos/phoneicone.png" alt="Phone Icon">
+            <p>Call me:</p>
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="contact-block">
+            <img src="photos/email-icon.png" alt="Email Icon">
+            <p>Email me:</p>
+            <p>scaggarib@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Brady Scaggari</p>
+    </div>
+</body>
+<script>
+    document.getElementById("switch").onclick = function(){
+     document.getElementsByTagName("body")[0].classList.toggle("dark");
+    };
+    </script>
+</html>

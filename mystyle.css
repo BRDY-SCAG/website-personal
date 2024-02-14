@@ -1,0 +1,176 @@
+
+/*styling to the body */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/*styling to body for dark*/
+.dark{
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #022414;
+    color: #ffffff;
+}
+
+
+/*image styling for dark mode to change border color*/
+.dark .image-gallery img {
+    position:  flex;
+    width: 275px;
+    height: 350px;
+    margin: 1px;
+    border: 25px solid;
+    border-radius: 69px;
+    border-style: ridge;
+    border-color: #ffffff;
+}
+/*end of image border styling 'dark'*/
+
+/*button styling for dark mode*/
+.dark #switch{
+    display: inline-block;
+    top: 59px;
+    left: 45%;
+    right: 0;
+    bottom: 0;
+    background-color: #022414;
+    border: 2px solid #333;
+    padding: 9px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dark #switch:hover{
+    background-color: #067843;
+}
+/*end of dark button styling*/
+
+
+/*styling for nav bar this also applies to contentpages.css*/
+.navbar ul{
+    position: absolute;
+    width: 97%;
+    margin: 0;
+    padding: 0;
+    top: -2px;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 1px solid #000000;
+}
+.navbar li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #022414;
+}
+
+.navbar ul li a.active {
+    background-color: #067843;
+}
+
+.navbar ul li a:hover.active {
+    text-decoration: underline;
+}
+/*end of nav bar styling*/
+
+/*content in index.html styling for picture and text below picture*/
+.me-content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/*image positioning for the image inside of me content*/
+.image-gallery{
+    align-content: center;
+    justify-content: center;
+}
+
+/*image styling for the actual image inside of class image gallery*/
+.image-gallery img {
+    position:  flex;
+    width: 275px;
+    height: 350px;
+    margin: 1px;
+    border: 25px solid;
+    border-radius: 69px;
+    border-style: ridge;
+    border-color: #022414;
+}
+
+/*end of me content styling*/
+
+
+/*button styling for light mode*/
+#switch{
+    display: inline-block;
+    top: 59px;
+    left: 45%;
+    right: 0;
+    bottom: 0;
+    background-color: #067843;
+    border: 2px solid #333;
+    padding: 9px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#switch:hover{
+    background-color: #022414;
+}
+
+/*end of button styling light mode*/
+
+/*header styling and positioning*/
+header{
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #333;
+
+}
+/*end of header*/
+
+/* Styling and positing for footer */
+.footer {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    height: 39px;
+    background-color: #022414;
+    background-blend-mode: difference;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+
+/* end of footer*/

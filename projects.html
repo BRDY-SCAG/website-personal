@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="contentpages.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a target="_blank" href="index.html">Home</a></li>
+                <li><a target="_blank" href="about.html">About</a></li>
+                <li><a href="projects.html"class="active">Projects</a></li>
+                <li><a target="_blank" href="resume.html">Resume</a></li>
+                <li><a target="_blank" href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        <h1>Projects</h1>
+    </header>
+
+    <button id="switch">Dark-Mode</button>
+
+    <div class="projects-content">
+        <div class="project">
+            <img src="photos/gpa.png" alt="Project 1">
+            <p>nmsu gpa calculator using pythong script to scrape a students audit. 
+            uses c++ from there to create a course for each new line of data.
+            uses attributes like credit hours and grade from there to calculate gpa in nmsu standards
+         </p>
+        </div>
+        <div class="project">
+            <img src="photos/nqueens.png" alt="Project 2">
+            <p>Implementation of stack data-structure. given n queens create nxn grid. Recursively search for safe spots
+                until the first format is found where all queens are safe. 
+            </p>
+        </div>
+        <div class="project">
+            <img src="photos/pairwise.png" alt="Project 3">
+            <p>Given nodes from a linked list. swaps pairwise for all pairs</p>
+        </div>
+        <div class="project">
+            <img src="photos/dictionary.png" alt="Project 4">
+            <p>Given a dictionary text file. This program loads the dictionary and creates a hash table.
+                for each term. once loading dictionary is complete. Search for the term you need to define.
+            </p>
+        </div>
+    </div>
+
+    <p id="description"> 
+        These are four basic programs that I have compeleted in my Data Structures class at NMSU.
+    </p>
+
+    <div class="social-links">
+        <a href="https://github.com/BRDY-SCAG" target="_blank">
+            <img src="photos/github.png" alt="GitHub">
+        </a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Brady Scaggari</p>
+    </div>
+</body>
+<script>
+    document.getElementById("switch").onclick = function(){
+     document.getElementsByTagName("body")[0].classList.toggle("dark");
+    };
+    </script>
+</html>
