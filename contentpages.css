@@ -42,75 +42,6 @@ body {
 /*end of dark button styling*/
 
 
-/*styling for header*/
-header {
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    padding-bottom: 1px;
-    border-bottom: 2px solid #333;
-}
-
-
-
-/*positioning for the main contact div*/
-.contact-content {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-/*positioning and styling for elements in main div block*/
-.contact-block {
-    text-align: center;
-    width: 45%;
-    padding: 20px;
-    border: 2px solid #333;
-    margin-bottom: 100px;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-/*styling for images in the contact page phone,mail*/
-.contact-block img{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px; 
-    border: 0px solid #333;
-    border-radius: 26px;
-
-}
-
-/*end of contact page styling*/;
-
-
-/*styling button in light mode*/
-#switch{
-    display: inline-block;
-    top: 59px;
-    left: 45%;
-    right: 0;
-    bottom: 0;
-    background-color: #067843;
-    border: 2px solid #333;
-    padding: 9px 15px;
-    color: #ffffff;
-    font-size: 15px;
-    border-radius: 30px;
-    margin: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#switch:hover{
-    background-color: #022414;
-}
-
-/*end of stylign button*/
-
-
 /*same as mystyle.css*/
 .navbar ul{
     position: absolute;
@@ -148,9 +79,72 @@ header {
 .navbar ul li a:hover.active {
     text-decoration: underline;
 }
+/*end of nav bar styling*/
 
-/*end of nav bar*/
+/*styling for header*/
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #333;
+}
 
+/*styling button*/
+#switch{
+    display: inline-block;
+    top: 59px;
+    left: 45%;
+    right: 0;
+    bottom: 0;
+    background-color: #067843;
+    border: 2px solid #333;
+    padding: 9px 15px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#switch:hover{
+    background-color: #022414;
+}
+/**done styling button/
+
+
+/*positioning for the main contact div*/
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*positioning and styling for elements in main div block*/
+.contact-block {
+    text-align: center;
+    width: 45%;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*styling for images in the contact page phone,mail*/
+.contact-block img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; 
+    border: 0px solid #333;
+    border-radius: 26px;
+
+}
+
+/*end of contact page styling*/;
 
 /*styling and positioning for about page*/
 .about-content {
