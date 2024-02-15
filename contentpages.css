@@ -81,16 +81,6 @@ body {
 }
 /*end of nav bar styling*/
 
-/*styling for header*/
-header {
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    padding-bottom: 1px;
-    border-bottom: 2px solid #333;
-}
-
 /*styling button*/
 #switch{
     display: inline-block;
@@ -113,6 +103,16 @@ header {
     background-color: #022414;
 }
 /**done styling button/
+
+/*styling for header*/
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #333;
+}
 
 
 /*positioning for the main contact div*/
